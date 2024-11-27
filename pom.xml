@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>demo01-quickstart</module>
+        <module>demo02-base-config</module>
     </modules>
 
     <properties>

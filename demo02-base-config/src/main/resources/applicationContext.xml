@@ -3,9 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="bookDao" class="com.impl.dao.com.itheima.BookDaoImpl"/>
+    <bean id="bookDao" name="dao bookDaoImpl" class="com.itheima.dao.impl.BookDaoImpl" scope="prototype"/>
 
-    <bean id="bookService" class="com.impl.service.com.itheima.BookServiceImpl">
+    <bean id="bookService" name="service, bookServiceImpl" class="com.itheima.service.impl.BookServiceImpl">
         <property name="bookDao" ref="bookDao"/>
     </bean>
 </beans>
