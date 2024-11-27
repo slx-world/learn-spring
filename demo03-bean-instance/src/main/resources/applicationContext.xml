@@ -10,4 +10,10 @@
     </bean>
 
     <bean id="orderDao" class="com.itheima.factory.OrderDaoFactory" factory-method="getOrderDao"/>
+
+    <bean id="userFactory" class="com.itheima.factory.UserDaoFactory"/>
+
+    <!-- <bean id="userDao" factory-bean="userFactory" factory-method="getUserDao"/> -->
+
+    <bean id="userDao" class="com.itheima.factory.UserDaoFactoryBean"/>
 </beans>
