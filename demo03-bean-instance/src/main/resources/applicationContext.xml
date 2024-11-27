@@ -8,4 +8,6 @@
     <bean id="bookService" name="service, bookServiceImpl" class="com.itheima.service.impl.BookServiceImpl">
         <property name="bookDao" ref="bookDao"/>
     </bean>
+
+    <bean id="orderDao" class="com.itheima.factory.OrderDaoFactory" factory-method="getOrderDao"/>
 </beans>

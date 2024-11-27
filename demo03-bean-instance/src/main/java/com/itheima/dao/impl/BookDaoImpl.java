@@ -16,9 +16,9 @@ public class BookDaoImpl implements BookDao {
         System.out.println("book dao save ...");
     }
 
-    public BookDaoImpl() {
-        System.out.println("book dao constructor is running ...");
-    }
+    // public BookDaoImpl() {
+    //     System.out.println("book dao constructor is running ...");
+    // }
 
     // private BookDaoImpl() {
     //     System.out.println("book dao constructor is running ...");

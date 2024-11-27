@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @Description:
  */
 
-public class App {
+public class AppForInstanceBook {
 
     public static void main(String[] args) {
         // 获取 IOC 容器
