@@ -12,6 +12,7 @@
         <module>demo01-quickstart</module>
         <module>demo02-base-config</module>
         <module>demo03-bean-instance</module>
+        <module>demo04-bean-lifecycle</module>
     </modules>
 
     <properties>
